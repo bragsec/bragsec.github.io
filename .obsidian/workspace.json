@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/cache-poisoning.md",
+                "file": "_posts/2024-02-12-cache-poisoning.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "cache-poisoning"
+              "title": "2024-02-12-cache-poisoning"
             }
           }
         ]
@@ -160,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 209.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,24 +173,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d19dee46276257d",
+  "active": "aa3ce47babbb3850",
   "lastOpenFiles": [
     ".git/index.lock",
-    ".git/objects/15/616379adacf93c33e5780491f660eedf0f2811",
-    ".git/objects/f1/bda2ea0c93b43dad7b5c41129aaf21580c3768",
-    ".git/objects/f1",
-    ".git/objects/9e/b62b184e35e2664e6deb702f4886760a6d3d4c",
-    ".git/objects/99/34b7f8c659e0ac6939db3d6d3b602bccb4d978",
-    ".git/objects/f5/48706f4c4e992384308512611c396e9a4eabce",
-    ".git/objects/f5",
-    ".git/objects/5d/9f68265cbe927d538ce9f63e0af75f7854e0cb",
-    ".git/objects/5d",
-    ".git/objects/b5/bfd2a7e74dae11ae5b5bcfa79a3dee74d3075e",
+    ".git/objects/bd/13f06bca291e0061ef7b006c4b200d50a794be",
+    ".git/objects/bd",
+    ".git/objects/5c/7244b7bd4bf6fc012dec8e6652d44646eb7a1f",
+    ".git/objects/5c",
+    ".git/objects/da/df5016eed210a2708cc959ef85ce1b6010ca91",
+    ".git/objects/da",
+    ".git/objects/92/4650bde6f02536026ef1099d3b555028bc02c0",
+    ".git/objects/92",
+    ".git/objects/89/de90b41757d64524fc15d1a93a49cfea85a59b",
+    ".git/objects/89",
     "_tabs/about.md",
     "_tabs/archives.md",
     "_tabs/tags.md",
     "_tabs/categories.md",
-    "_posts/cache-poisoning.md",
+    "_posts/2024-02-12-cache-poisoning.md",
     "README.md"
   ]
 }
