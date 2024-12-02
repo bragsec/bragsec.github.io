@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Cache-Poisoning.md.md",
-                "mode": "preview",
+                "file": "_posts/cache-poisoning.md.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cache-Poisoning.md"
+              "title": "cache-poisoning.md"
             }
           }
         ]
@@ -170,25 +170,26 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa3ce47babbb3850",
+  "active": "9d19dee46276257d",
   "lastOpenFiles": [
     ".git/index.lock",
-    ".git/objects/a7/e891594385f5f83b20826078b76a473c6e0df9",
-    ".git/objects/a7",
-    ".git/objects/12/f248a36240baa892d10b3f24257956589a585c",
-    ".git/objects/12",
-    ".git/objects/15/c3ddd7825efb73a6c1b879c31cb96180052f34",
-    ".git/objects/15",
-    ".git/objects/0e/4e101ea6b198185693e824e3d0ad342764ef2d",
-    ".git/objects/0e",
-    ".git/objects/e2/81d562b4ac71844f03c030cc08abe2beb2f752",
-    ".git/objects/e2",
-    "_posts/Cache-Poisoning.md.md",
     "_tabs/about.md",
+    "_tabs/archives.md",
+    "_tabs/tags.md",
+    "_tabs/categories.md",
+    "_posts/cache-poisoning.md.md",
+    ".git/objects/dd/743d2479e1cb60f353ce0d3b85ec6771cfca75",
+    ".git/objects/dd",
+    ".git/objects/0a/1dcf4542b8b68f9e1a2132774f11b9d52cc0bd",
+    ".git/objects/0a",
+    ".git/objects/f6/7904eaf5941aa0653cb00f8c9dc0e2e77a6b08",
+    ".git/objects/f6",
+    ".git/objects/62/86360266d6cfe548946c04415a6ca4e945f604",
+    ".git/objects/62",
+    ".git/objects/a7/e891594385f5f83b20826078b76a473c6e0df9",
     "README.md"
   ]
 }
