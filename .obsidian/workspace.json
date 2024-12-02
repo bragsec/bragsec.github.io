@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/cache-poisoning.md.md",
+                "file": "_posts/cache-poisoning.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "cache-poisoning.md"
+              "title": "cache-poisoning"
             }
           }
         ]
@@ -176,20 +176,21 @@
   "active": "9d19dee46276257d",
   "lastOpenFiles": [
     ".git/index.lock",
+    ".git/objects/b7/8a45caded3646dba6a09b263da7751dccb4a8b",
+    ".git/objects/b7",
+    ".git/objects/6b/c7e5c8dc80e88366423029f25682035a621bbc",
+    ".git/objects/6b",
+    ".git/objects/70/9a17edabefc4b7525e71d97779daa46e7334a9",
+    ".git/objects/53/656aae807ee5afb6d5a6c59cec97e1168694e6",
+    ".git/objects/53",
+    ".git/objects/3e/7cef457107dae0bc472d138c101b563d357365",
+    ".git/objects/3e",
+    ".git/objects/01/c6f67f6762ca246603f1fdd3b99b108b9fc7c9",
     "_tabs/about.md",
     "_tabs/archives.md",
     "_tabs/tags.md",
     "_tabs/categories.md",
-    "_posts/cache-poisoning.md.md",
-    ".git/objects/dd/743d2479e1cb60f353ce0d3b85ec6771cfca75",
-    ".git/objects/dd",
-    ".git/objects/0a/1dcf4542b8b68f9e1a2132774f11b9d52cc0bd",
-    ".git/objects/0a",
-    ".git/objects/f6/7904eaf5941aa0653cb00f8c9dc0e2e77a6b08",
-    ".git/objects/f6",
-    ".git/objects/62/86360266d6cfe548946c04415a6ca4e945f604",
-    ".git/objects/62",
-    ".git/objects/a7/e891594385f5f83b20826078b76a473c6e0df9",
+    "_posts/cache-poisoning.md",
     "README.md"
   ]
 }
