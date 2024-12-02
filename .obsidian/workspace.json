@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "_posts/Cache-Poisoning.md.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Cache-Poisoning.md"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_posts/Cache-Poisoning.md.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Cache-Poisoning.md"
             }
           },
           {
@@ -170,9 +170,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "9d19dee46276257d",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    ".git/index.lock",
+    "_posts/Cache-Poisoning.md.md",
+    "_tabs/about.md",
+    "README.md",
+    ".jekyll-cache/Jekyll/Cache/Module/c7/b1ec534712abe0c0031b7059085aea05d5ec561d989fe7a4d31bfa4019bf90",
+    ".jekyll-cache/Jekyll/Cache/Module/8b/c3736394a09ca696abebb22464fa09f8f5270beca9507d75f6eb7d18a89d56",
+    ".jekyll-cache/Jekyll/Cache/Module/b5/91981a553680a3ecf064cd84e776294dca97393bf031509b7a3a9c3f6e6d94",
+    ".jekyll-cache/Jekyll/Cache/Module/52/d6617afa1dfc7ea160694cba8507b271e0e5590e35e56cc04b25592c721933",
+    ".jekyll-cache/Jekyll/Cache/Module/77/c36ef7a50fc83499ae4b6c37829be790e8a910ab55eedf947ca83769dc3bcd",
+    ".jekyll-cache/Jekyll/Cache/Module/20/72b1f478528f2502db8244e9c52d2a508737e5050a6c34741c412714f74590",
+    ".jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/eb/ee70f9c3c75c0d357c1043440ff8b9347b039bff2bf36be3ac4d4a99765f48",
+    ".jekyll-cache/Jekyll/Cache/Module/1c/31ea00075f4d2008488484063a867f79aafffbd5b6044352269a4e86228f06",
+    ".jekyll-cache/Jekyll/Cache/Module/15/97dd8e9cdd7cd0d511c51f7de52e1a39e154913be3002c3a003634bd0fd316"
+  ]
 }
