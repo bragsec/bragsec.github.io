@@ -1,8 +1,8 @@
 ---
-title: Cache Poisoning DoS on Netflix:
+title: Cache Poisoning DoS on Netflix
 date: 2024-13-12 12:00:00 -500
-categories: [bugbounty]
-tags: [bugbounty]
+categories: [bugbounty,cache-poisoning,cpdos]
+tags: [bugbounty,cpdos]
 ---
 
 ## CP-DoS: 
@@ -24,10 +24,8 @@ According to the [**RFC 3986 Section 5.2.4**](https://datatracker.ietf.org/doc/h
 When hunting on Netflix, I realized that the cache server was doing path normalization by decoding "dot segments" before generating the cache key. While the origin server was not doing any sort of normalization. (**Disagreement of RFC 3986 5.2.4**).
 
 Which means both "`/en/home`" and "`/en/../home`" were hitting the same cache key for the cached response but returned different responses.
-
 For example:
-- "`/en/home`" returns **200 OK**,
-but,
+- "`/en/home`" returns **200 OK** but,
 - "`/en/../home`" returns **404 Not Found**.
 
 So, it was possible to trick the cache server into caching **404** pages replacing genuine ones.
@@ -37,14 +35,14 @@ So, it was possible to trick the cache server into caching **404** pages replaci
 2. Open BurpSuite and Capture any request. For e.g: `/en/fr_fr` (French page)
 3. Add a cache buster to not harm genuine users `?cb=hackingsucks`. 
 4. Send the poisoned (dot segmented) request like this: 
-```http
-GET /en/xxx/../fr_fr/?cb=hackingsucks HTTP/2
-Host: redacted.netflix.com
-User-Agent: Chrome/131.0.0.0 Safari/537.36
-
-```
-5. Resend the request without the dot segment and it should return a `404 Not Found` page.
-6. Try loading the content with a different browser or incognito mode, it should be gone.
+	```
+	GET /en/xxx/../fr_fr/?cb=hackingsucks HTTP/2
+	Host: redacted.netflix.com
+	User-Agent: Chrome/131.0.0.0 Safari/537.36
+	
+	```
+1. Resend the request without the dot segment and it should return a `404 Not Found` page.
+2. Try loading the content with a different browser or incognito mode, it should be gone.
 
 ## Impact: 
 This issue leads to persistence denial of service attack for all resources hosted on `redacted.netflix.com`.
