@@ -1,6 +1,6 @@
 ---
-title: CP-DoS on Netflix:
-date: 2024-12-13 12:00:00 -500
+title: Cache Poisoning DoS on Netflix:
+date: 2024-13-12 12:00:00 -500
 categories: [bugbounty]
 tags: [bugbounty]
 ---
@@ -36,8 +36,8 @@ So, it was possible to trick the cache server into caching **404** pages replaci
 1. Navigate to `https://redacted.netflix.com/en`
 2. Open BurpSuite and Capture any request. For e.g: `/en/fr_fr` (French page)
 3. Add a cache buster to not harm genuine users `?cb=hackingsucks`. 
-4. Send the poisoned (dot segmented) request like this:
-```
+4. Send the poisoned (dot segmented) request like this: 
+```http
 GET /en/xxx/../fr_fr/?cb=hackingsucks HTTP/2
 Host: redacted.netflix.com
 User-Agent: Chrome/131.0.0.0 Safari/537.36
