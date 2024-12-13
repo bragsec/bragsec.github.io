@@ -1,6 +1,6 @@
 ---
 title: CP-DoS on Netflix:
-date: 2024-02-12 12:00:00 -500
+date: 2024-12-13 12:00:00 -500
 categories: [bugbounty]
 tags: [bugbounty]
 ---

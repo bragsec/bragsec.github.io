@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-02-12-cache-poisoning-DoS-netflix.md",
+                "file": "_posts/2024-12-13-cache-poisoning-DoS-netflix.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2024-02-12-cache-poisoning-DoS-netflix"
+              "title": "2024-12-13-cache-poisoning-DoS-netflix"
             }
           }
         ]
@@ -177,7 +177,7 @@
   "lastOpenFiles": [
     "README.md",
     ".git/index.lock",
-    "_posts/2024-02-12-cache-poisoning-DoS-netflix.md",
+    "_posts/2024-12-13-cache-poisoning-DoS-netflix.md",
     ".git/objects/1b/ea4b7445a99ca72aaff766405359fc9d67decc",
     ".git/objects/1b",
     ".git/objects/b8/c3b18d30f2124f60a0f8e1fbc0bbb547f3d72d",
